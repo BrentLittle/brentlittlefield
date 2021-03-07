@@ -5,21 +5,63 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="CSS/Bootstrap/css/bootstrap.min.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
     <link rel="icon" href="Assets/IconsAndLogos/tabIcon.png">
+
+    <link href="CSS/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/home.css">
+
     <title>Brent Littlefield</title>
   </head>
 
-  <body>
-    <div class="container my-5">
-      <h1>Brent Littlefield</h1>
-      <p>
-        Welcome to my Portfolio!
-      </p>
-    </div>
+  <body class="home">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navBar">
+      <div class="container-fluid">
+
+        <a href="#">
+          <img id="navLogo" class="pb-1" src="Assets/IconsAndLogos/transparentLogo.png" alt="">
+        </a>
+
+        <a class="navbar-brand p-0 ms-4" href="#">Brent Littlefield</a>
+
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExample04">
+          <ul class="navbar-nav mb-2 mb-md-0 ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown04">
+                <li><a class="dropdown-item" href="#">Proj 1</a></li>
+                <li><a class="dropdown-item" href="#">Proj 2</a></li>
+                <li><a class="dropdown-item" href="#">Proj 3</a></li>
+                <li><a class="dropdown-item" href="#">Proj 4</a></li>
+                <li><a class="dropdown-item" href="#">Proj 5</a></li>
+                <li><a class="dropdown-item" href="#">Proj 6</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link contact" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 
-    <script src="JS/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="JS/Bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
 
 </html>

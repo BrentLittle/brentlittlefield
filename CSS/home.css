@@ -1,0 +1,69 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "Nunito";
+  padding: 0;
+}
+
+#navBar {
+  background-color: black;
+}
+
+#navBar .nav-link.contact {
+  color: black;
+  background-color: #ffd100;
+  border-radius: 10px;
+  padding: 3px 3px;
+  font-weight: 400;
+}
+
+#navBar .nav-link.contact:hover {
+  color: black;
+  background-color: #fca311;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 3px 3px;
+  transition: background-color 500ms;
+}
+
+#navBar .nav-link {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 100;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 3px 0;
+  margin: 0 1rem;
+  text-align: center;
+  transition: border 500ms;
+  padding: 3px;
+}
+
+#navBar .nav-link:hover {
+  color: #ffd100;
+  border: 1px solid #ffd100;
+  transition: border 500ms;
+}
+
+#navBar .navbar-brand {
+  font-size: 2.25rem;
+  font-weight: 150;
+  margin-left: 3rem;
+  letter-spacing: 2px;
+}
+
+#navLogo {
+  height: 2.1rem;
+  padding-bottom: 5px;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #ffd100;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dropdown-item {
+  text-align: center;
+}
